@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageHeader">
+        <attr name="Pagetitle" format="string" />
+
+        <attr name="DefaultButtonVisibility" format="enum">
+            <enum name="visible" value="1" />
+            <enum name="invisible" value="0" />
+        </attr>
+
+        <attr name="FirstActionButtonVisibility" format="enum">
+            <enum name="visible" value="1" />
+            <enum name="invisible" value="0" />
+        </attr>
+
+        <attr name="SecondActionButtonVisibility" format="enum">
+            <enum name="visible" value="1" />
+            <enum name="invisible" value="0" />
+        </attr>
+        <attr name="DefaultButtonImage" format="reference" />
+        <attr name="FirstActionButtonImage" format="reference" />
+        <attr name="SecondActionButtonImage" format="reference" />
+
+    </declare-styleable>
+</resources>

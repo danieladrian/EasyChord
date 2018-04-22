@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/btnDefault"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/btn_transparent"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_left_white" />
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text="tes"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnAction1"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/btn_transparent"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_one_white" />
+
+    <ImageView
+        android:id="@+id/btnAction2"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/btn_transparent"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_two_white" />
+</LinearLayout>

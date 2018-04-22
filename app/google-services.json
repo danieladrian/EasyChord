@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8909812890",
+    "project_id": "chord-repository"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8909812890:android:8d668ab05cf41365",
+        "android_client_info": {
+          "package_name": "net.danieladrian.chordrepository"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8909812890-1cdgq78k6h8ot2l9ulussntv3evcp11s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "8909812890-830r2q6cd0uva5lkl6rrcs1onjs3ifvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.danieladrian.chordrepository",
+            "certificate_hash": "5f0b698bdf39010310cebd7ed539c580987b19a1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNc0UvtQQ0hAdejgsg_H060d7Yk9aeZ0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
